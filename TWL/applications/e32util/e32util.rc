@@ -1,0 +1,215 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_MAIN DIALOG DISCARDABLE  0, 0, 319, 197
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "E32 Image Editor"
+FONT 10, "Tahoma"
+BEGIN
+    LTEXT           "E32 File:",IDC_STATIC,7,10,30,8
+    EDITTEXT        IDC_EDT_E32FILE,44,7,160,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "&Browse",IDC_BTN_BROWSE,208,7,50,14
+    PUSHBUTTON      "&Open",IDC_BTN_OPEN,262,7,50,14
+    GROUPBOX        " Information ",IDC_STATIC,7,24,305,148
+    LTEXT           "Uid1:",IDC_STATIC,14,39,18,8
+    EDITTEXT        IDC_EDT_UID1,57,37,64,14,ES_AUTOHSCROLL
+    LTEXT           "Uid2:",IDC_STATIC,137,39,18,8
+    EDITTEXT        IDC_EDT_UID2,179,37,64,14,ES_AUTOHSCROLL
+    LTEXT           "Uid3:",IDC_STATIC,14,56,18,8
+    EDITTEXT        IDC_EDT_UID3,57,53,64,14,ES_AUTOHSCROLL
+    LTEXT           "Secure Id:",IDC_STATIC,14,72,36,8
+    EDITTEXT        IDC_EDT_SECUREID,57,69,64,14,ES_AUTOHSCROLL
+    LTEXT           "Vendor Id:",IDC_STATIC,135,72,35,8
+    EDITTEXT        IDC_EDT_VENDORID,179,69,64,14,ES_AUTOHSCROLL
+    LTEXT           "Capabilities:",IDC_STATIC,14,90,41,8
+    CONTROL         "TCB",IDC_CHK_TCB,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    23,104,29,10
+    CONTROL         "CommDD",IDC_CHK_COMMDD,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,95,104,46,10
+    CONTROL         "PowerMgmt",IDC_CHK_POWERMGMT,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,167,104,55,10
+    CONTROL         "MultimediaDD",IDC_CHK_MULTIMEDIADD,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,239,104,61,10
+    CONTROL         "ReadDeviceData",IDC_CHK_READDEVICEDATA,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,23,116,69,10
+    CONTROL         "WriteDeviceData",IDC_CHK_WRITEDEVICEDATA,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,95,116,70,10
+    CONTROL         "DRM",IDC_CHK_DRM,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    167,116,31,10
+    CONTROL         "TrustedUI",IDC_CHK_TRUSTEDUI,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,239,116,48,10
+    CONTROL         "ProtServ",IDC_CHK_PROTSERV,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,23,128,44,10
+    CONTROL         "DiskAdmin",IDC_CHK_DISKADMIN,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,95,128,50,10
+    CONTROL         "NetworkControl",IDC_CHK_NETWORKCONTROL,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,167,128,66,10
+    CONTROL         "AllFiles",IDC_CHK_ALLFILES,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,239,128,39,10
+    CONTROL         "SwEvent",IDC_CHK_SWEVENT,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,23,140,44,10
+    CONTROL         "NetworkServices",IDC_CHK_NETWORKSERVICES,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,95,140,70,10
+    CONTROL         "LocalServices",IDC_CHK_LOCALSERVICES,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,167,140,60,10
+    CONTROL         "ReadUserData",IDC_CHK_READUSERDATA,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,239,140,62,10
+    CONTROL         "WriteUserData",IDC_CHK_WRITEUSERDATA,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,23,152,63,10
+    CONTROL         "Location",IDC_CHK_LOCATION,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,95,152,43,10
+    CONTROL         "SurroundingsDD",IDC_CHK_SURROUNDINGSDD,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,167,152,69,10
+    CONTROL         "UserEnvironment",IDC_CHK_USERENVIRONMENT,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,239,152,71,10
+    PUSHBUTTON      "&Update",IDC_BTN_UPDATE,208,176,50,14
+    DEFPUSHBUTTON   "&Close",IDOK,262,176,50,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_MAIN, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 312
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 190
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,2
+ PRODUCTVERSION 1,0,0,2
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "Baby Dragon, Inc.\0"
+            VALUE "FileDescription", "e32util\0"
+            VALUE "FileVersion", "1, 0, 0, 2\0"
+            VALUE "InternalName", "e32util\0"
+            VALUE "LegalCopyright", "Copyright ? 2009\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "e32util.exe\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "Baby Dragon, Inc. e32util\0"
+            VALUE "ProductVersion", "1, 0, 0, 2\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_MAIN                ICON    DISCARDABLE     "cog_edit.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// 24
+//
+
+1                       24      DISCARDABLE     "e32util.manifest"
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
