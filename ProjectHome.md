@@ -1,0 +1,1 @@
+A tiny Windows GUI library, like MFC and WTL, no .cpp files and .lib files needed.
